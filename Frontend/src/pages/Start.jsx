@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Home = () => {
+const Start = () => {
   return (
     <div className=' bg-cover bg-bottom bg-[url(https://images.unsplash.com/photo-1691787564383-fbf69e1f945c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] h-screen  pt-8  flex justify-between flex-col w-full '>
         <img className='w-14 ml-8 ' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/2560px-Uber_logo_2018.svg.png" alt="" />
@@ -13,4 +13,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Start

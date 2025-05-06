@@ -25,7 +25,6 @@ module.exports.registerUser = async (req, res, next) => {
         message: "Full name must include both firstname and lastname.",
       });
     }
-
     // Hash the password
     const hashedPassword = await userModel.hashPassword(password);
 
